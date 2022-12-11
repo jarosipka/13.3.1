@@ -1,0 +1,28 @@
+<!-- HTML formulár pre vstup údajov o filme -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Filmy</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <!-- vstupne pole pre nazov filmu -->
+    <input type="text" id="movie-name" placeholder="Názov filmu" />
+
+    <!-- vstupne pole pre rok vydania filmu -->
+    <input type="number" id="movie-year" placeholder="Rok vydania" />
+
+    <!-- vstupne pole pre meno herca -->
+    <input type="text" id="movie-actor" placeholder="Meno herca" />
+
+    <button onclick="insertMovie()">Vložiť</button>
+    <button onclick="removeLastMovie()">Odstrániť posledný</button>
+    <button onclick="clearMovieList()">Vymazať celý zoznam</button>
+<div id="film">filmyy</div>
+
+  </body>
+</html>
